@@ -1,2 +1,2 @@
-const HelloWorld = require('./lib/helloworld');
+const HelloWorld = require('./lib/module');
 module.exports = HelloWorld;

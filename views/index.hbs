@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello, world!</title>
+  </head>
+  <body></body>
+  <script type="text/javascript">
+    var s = 'Hello, world!';
+    var i = 0;
+    var body = document.getElementsByTagName('body')[0];
+    window.setInterval(function() {
+      if(i === s.length) return clearInterval(this);
+      body.innerHTML += s[i++];
+    }, 150);
+  </script>
+  <style media="screen">
+    html {
+      font-family: monospace;
+      font-size: 100px;
+      text-align: center;
+      margin-top: 10%;
+    }
+  </style>
+</html>
