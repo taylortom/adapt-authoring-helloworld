@@ -5,13 +5,13 @@
   </head>
   <body></body>
   <script type="text/javascript">
+    var body = document.getElementsByTagName('body')[0];
     var s = 'Hello, world!';
     var i = 0;
-    var body = document.getElementsByTagName('body')[0];
     window.setInterval(function() {
       if(i === s.length) return clearInterval(this);
       body.innerHTML += s[i++];
-    }, 150);
+    }, 120);
   </script>
   <style media="screen">
     html {
