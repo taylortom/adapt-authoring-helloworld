@@ -5,6 +5,9 @@
   "main": "index.js",
   "adapt_authoring": {
     "module": true,
+    "moduleDependencies": [
+      "adapt-authoring-server"
+    ],
     "documentation": {
       "enable": true,
       "include": "lib/*"
