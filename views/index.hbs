@@ -2,10 +2,14 @@
 <html lang="en">
   <head>
     <title>Hello, world!</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/prototype.css">
   </head>
   <body>
-    <a class="back" href="/prototype"><i class="fas fa-home"></i></a>
-    <content></content>
+    <div id="app">
+      <a class="back" href="/prototype"><i class="fas fa-home"></i></a>
+      <content></content>
+    </div>
   </body>
   <script type="text/javascript">
     var content = document.getElementsByTagName('content')[0];
@@ -17,30 +21,13 @@
     }, 120);
   </script>
   <style media="screen">
-    html {
-      background: url(https://www.adaptlearning.org/wp-content/uploads/2015/12/header_image.jpg?id=924);
-      background-attachment: fixed;
-      text-align: center;
+    #app {
       margin-top: 10%;
-      color: white;
+      width: 100%;
     }
     content {
       font-family: monospace;
       font-size: 100px;
-    }
-    a.back {
-      font-size: 20px;
-      color: white;
-      position: fixed;
-      top: 10px;
-      left: 10px;
-      background: rgba(255,255,255,0.25);
-      padding: 5px 10px;
-      border-radius: 3px;
-    }
-    a.back:hover {
-      text-decoration: none;
-      background: rgba(255,255,255,0.4);
     }
   </style>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
