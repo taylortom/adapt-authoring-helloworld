@@ -1,7 +1,7 @@
 {
   "name": "adapt-authoring-helloworld",
   "version": "0.0.1",
-  "description": "An example 'hello world' module for the Adapt authoring tool",
+  "description": "An example 'hello world' module",
   "homepage": "https://github.com/taylortom/adapt-authoring-helloworld",
   "main": "index.js",
   "adapt_authoring": {
